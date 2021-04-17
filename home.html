@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/boostrap/bootstrap-4.6.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/cssHome/style.css">
+</head>
+
+<body onload="myFunction()">
+    <!-- laoder -->
+    <div id="centerdiv">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+
+        </ul>
+    </div>
+    <!--END laoder -->
+    <div class="hidePage">
+        <!-- ----------------------------------Menu Site------------------------------- -->
+        <header class="container-fluid ">
+            <div class="row nav-menu-">
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex nav justify-content-center align-items-center p-0">
+                    <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 nav-menu-1 d-flex p-0 ">
+                        <a href="/home.html">
+                            <img class="ml-2" src="/img/logo2021.png" alt="">
+                        </a>
+                    </div>
+                    <div
+                        class="col-6 col-sm-6 col-md-7 col-lg-7 col-xl-7 d-flex d-flex justify-content-start nav-menu-2">
+                        <a href="/home.html">Home</a>
+                        <a href="/About.html">About</a>
+                        <a href="/FAQ.html">FAQ</a>
+                        <a href="/media.html">Media</a>
+                        <a id="Contact">Contact</a>
+                        <form id="boxContact">
+                            <div class="bgfrom"></div>
+                            <svg class="closeIcon mt-4" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0010 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                            <h3>We love to help you</h3>
+                            <label for="input-1">Full name</label>
+                            <input id="input-1" type="text" placeholder="Full name" name="Fullname" required>
+                            <label for="input-2">Phone</label>
+                            <input id="input-2" type="tel" placeholder="Phone" name="phone" required>
+                            <label for="input-3">Email</label>
+                            <input id="input-3" type="email" placeholder="Email" name="email" required>
+                            <label for="input-4">Free text</label>
+                            <textarea id="input-4" name="text" cols="26" rows="3" placeholder="Free..."
+                                required></textarea>
+                            <button id="ContactUs" type="submit">Send Now</button>
+                            <div class="textRecuest"></div>
+                        </form>
+
+                    </div>
+
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-end p-0 nav-menu-3">
+                        <div class="menuMobileIcon">
+                            <div class="mainDrop">
+                                <div id="dropmenu">
+                                    <img src="/img/iconsMenu/menu.png" alt="">
+                                </div>
+                                <div class="dropItems">
+                                    <a class="dropItem" href="/home.html">Home</a>
+                                    <a class="dropItem" href="/About.html">About</a>
+                                    <a class="dropItem" href="/FAQ.html">FAQ</a>
+                                    <a class="dropItem" href="/media.html">Media</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <a href="#">
+                            <img src="/img/iconsMenu/1.png" alt="hotel">
+
+                        </a>
+                        <a href="#">
+                            <img src="/img/iconsMenu/2.png" alt="order">
+                        </a>
+                        <a id="contactMoblie" href="contactusm.html">
+                            <img src="/img/iconsMenu/3.png" alt="call">
+                        </a>
+
+
+                    </div>
+
+                </div>
+                <div class="line"></div>
+            </div>
+
+        </header>
+        <!-- ----------------------------------End Menu Site------------------------------- -->
+
+        <!-- Main site -->
+
+
+        <!-- slider img -->
+        <div class="container-fluid p-0 m-0 main-slider">
+            <div class="col-12 p-0">
+                <div id="carouselExampleCaptions" class="carousel slide pt-1 p-0 m-0" data-ride="carousel">
+
+
+
+                    <ol class="carousel-indicators navBtn">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    </ol>
+
+
+
+                    <div class="carousel-inner itemCmain ">
+                        <div class="carousel-item active itemC">
+                            <img src="/img/Slider/1.png" class="d-block  w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Ace Hotel New Orleans</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                                <button type="button" class="button-">Primary</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item itemC">
+                            <img src="/img/Slider/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sheraton New Orleans Hotel</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                                <button type="button" class="button-">Primary</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item itemC">
+                            <img src="/img/Slider/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Walk-On's Bistreaux and Bar</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                                <button type="button" class="button-">Primary</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item itemC">
+                            <img src="/img/Slider/4.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Walk-On's Bistreaux and Bar</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                                <button type="button" class="button-">Primary</button>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--END slider img -->
+
+
+        <!--````````````````````` Small slider img -->
+        <div class="container-fluid d-flex bigMain align-items-center">
+
+            <div class="col-0 col-sm-0 col-md-3 col-lg-3 col-xl-3 col-xxl-3 mt-5">
+                <iframe scrolling="no" class="iframe-2" src="contactusm.html"
+                    title="W3Schools Free Online Web Tutorials"></iframe>
+            </div>
+            <div
+                class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 col-xxl-9 align-items-center justify-content-center">
+                <main class="container-fluid  p-0 sliderOverflow ">
+                    <p class="titel mt-4 d-flex justify-content-center">The hottest places</p>
+                    <div class="row slider  d-flex justify-content-start pt-1">
+
+                        <div class="d-flex scroll">
+                            <div class="img-1 d-flex flex-column align-items-center">
+                                <h1>Sheraton New Orleans Hotel</h1>
+
+                                <img src="/img/BoxSlider/1.jpg" alt="">
+                                <button class="btn1">Learn more</button>
+
+                            </div>
+                            <div class="img-1 d-flex flex-column align-items-center">
+                                <h1>Walk-On's Bistreaux and Bar</h1>
+                                <img src="/img/BoxSlider/image (1).jpg" alt="">
+                                <button class="btn1">Learn more</button>
+
+                            </div>
+                            <div class="img-1 d-flex flex-column align-items-center">
+                                <h1>Ace Hotel New Orleans</h1>
+                                <img src="/img/BoxSlider/3.jpg" alt="">
+                                <button class="btn1">Learn more</button>
+
+                            </div>
+                            <div class="img-1 d-flex flex-column align-items-center">
+                                <h1>The Ritz-Carlton, New Orleans</h1>
+                                <img src="/img/BoxSlider/4.jpg" alt="">
+                                <button class="btn1">Learn more</button>
+
+                            </div>
+                            <div class="img-1 d-flex flex-column align-items-center">
+                                <h1>Louisiana Children's Museum</h1>
+                                <img src="/img/mediaImg/small-1.jpg" alt="">
+                                <button class="btn1">Learn more</button>
+
+                            </div>
+                            <div class="img-1 d-flex flex-column align-items-center">
+                                <h1>Museum of Death</h1>
+                                <img src="/img/mediaImg/small-2.jpg" alt="">
+                                <button class="btn1">Learn more</button>
+
+                            </div>
+                            <div class="img-1 d-flex flex-column align-items-center">
+                                <h1>Haunted Museum</h1>
+                                <img src="/img/mediaImg/small-3.jpg" alt="">
+                                <button class="btn1">Learn more</button>
+
+                            </div>
+                            <div class="img-1 d-flex flex-column align-items-center">
+                                <h1>Festival</h1>
+                                <p>hot hot hot</p>
+                                <img src="/img/Slider/4.png" alt="">
+                                <button class="btn1">Learn more</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+
+            </div>
+
+
+        </div>
+        <!--```````````````` END   Smalllider img -->
+
+        <!-- timer -->
+        <div class="container-fluid d-flex justify-content-center mt-5">
+            <div class="row myBorder">
+                <div
+                    class="mt-1 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center titel">
+                    <h1>Time To Mardi Grass</h1>
+                </div>
+
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center mainBox">
+                    <div class="Timer d-flex justify-content-center align-items-center">
+                        <span>Day
+                            <div id="Day"></div>
+                        </span>
+                        <span>Hours
+                            <div id="Hours"></div>
+                        </span>
+                        <span>Min
+                            <div id="Min"></div>
+                        </span>
+                        <span>Sec
+                            <div id="Sec"></div>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Timer -->
+
+
+        <!-- cards -->
+        <div class="container-fluid d-flex justify-content-center flex-wrap cards">
+            <div class="card d-flex flex-column justify-content-center align-items-center">
+                <div class="cardOverly">
+                    <h4>The place is hot right now</h4>
+                    <h5>Order now</h5>
+                    <h6>Walk-On's Bistreaux and Bar</h6>
+                </div>
+            </div>
+
+            <div class="card d-flex flex-column justify-content-center align-items-center">
+                <div class="cardOverly">
+                    <h4>The place is hot right now</h4>
+                    <h5>Order now</h5>
+                    <h6>Walk-On's Bistreaux and Bar</h6>
+                </div>
+            </div>
+
+            <div class="card d-flex flex-column justify-content-center align-items-center">
+                <div class="cardOverly">
+                    <h4>The place is hot right now</h4>
+                    <h5>Order now</h5>
+                    <h6>Walk-On's Bistreaux and Bar</h6>
+                </div>
+            </div>
+        </div>
+        <!-- END cards -->
+
+
+        <!-- ````````````````` BEOGRAFY SITE -->
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <div class="row d-flex flex-column justify-content-center align-items-center mt-5 main-beografy">
+                <div class="text d-flex flex-column justify-content-center align-items-center">
+                    <h3>Mardi Gras 2022 is Tuesday, March 1</h3>
+                    <h4>We're counting down the minutes.</h4>
+                    <h5>Watch the video now</h5>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 youtube">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tVMWwnrVpfw"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- `````````````````END  BEOGRAFY SITE -->
+
+        <!-- footer -->
+        <footer class="container-fluid footer ">
+            <div class="row styleFooter d-flex justify-content-center">
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 d-flex flex-column align-items-center leftSide">
+                    <img src="/img/logo2021.png" alt="">
+                    <strong>Sign up now for promotions</strong>
+                    <input id="inputFooterValue" placeholder="Enter your email" type="text">
+                    <button id="btnValue" type="submit" class="btn1 mt-3">Submit</button>
+                </div>
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-5 d-flex flex-column justify-content-start rightSide">
+                    <ul class="itemsMenuFooter">
+                        <h1>Recommended hotel's</h1>
+                        <a href="#">
+                            <li class="item-footer">Sheraton New Orleans Hotel</li>
+                        </a>
+                        <a href="#">
+                            <li class="item-footer">Walk-On's Bistreaux and Bar</li>
+                        </a>
+                        <a href="#">
+                            <li class="item-footer">Ace Hotel New Orleans</li>
+                        </a>
+                        <a href="#">
+                            <li class="item-footer">The Ritz-Carlton, New Orleans</li>
+                        </a>
+                        <a href="#">
+                            <li class="item-footer">Premium Parking - P402</li>
+                        </a>
+                        <a href="#">
+                            <li class="item-footer">Louisiana Children's Museum</li>
+                        </a>
+
+                    </ul>
+                </div>
+
+
+                <p>Copywriting By shlomi saadon @</p>
+            </div>
+        </footer>
+
+        <!-- footer -->
+
+
+    </div>
+</body>
+
+<!-- Jequry -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/js/jequry.js"></script>
+<!-- END Jequry-->
+
+<!-- My JavaScript -->
+<script src="/js/index.js"></script>
+<script src="/js/timer.js"></script>
+<!-- `````````````````````````-->
+
+
+<!-- Fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<!-- ``````````````` -->
+
+<!-- Font fontawesome-->
+<script src="https://kit.fontawesome.com/b5dafa2bb7.js" crossorigin="anonymous"></script>
+<!-- ````````````````````````````````````-->
+
+<!-- Boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+</script>
+<!--```````````````````````````````````````````````` -->
+
+</html>
